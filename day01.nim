@@ -14,8 +14,8 @@ proc efficient(file: File): int =
     else: discard
 
 #echo stdin.concise
-#echo open("day1.input").concise
-#echo open("day1.input").efficient
+#echo open("day01.input").concise
+#echo open("day01.input").efficient
 
 # Part 2
 
@@ -29,4 +29,4 @@ proc part2(file: File): tuple[total, pos: int64] =
     if result.pos == 0 and result.total == -1:
       result.pos = getFilePos file
 
-echo open("day1.input").part2 # (total: 232, pos: 1783)
+echo open("day01.input").part2 # (total: 232, pos: 1783)

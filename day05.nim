@@ -16,7 +16,7 @@ proc part1(file: File): int =
        "xy" notin line:
       inc result
 
-echo "Part 1: ", open("day5.input").part1
+echo "Part 1: ", open("day05.input").part1
 
 proc part2(file: File): int =
   for line in lines file:
@@ -36,4 +36,4 @@ proc part2(file: File): int =
     if row and repeats:
       inc result
 
-echo "Part 2: ", open("day5.input").part2
+echo "Part 2: ", open("day05.input").part2

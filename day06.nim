@@ -27,7 +27,7 @@ proc part1(file: File): int =
       if value:
         inc result
 
-echo "Part 1: ", open("day6.input").part1
+echo "Part 1: ", open("day06.input").part1
 
 proc part2(file: File): int =
   var grid: array[1000, array[1000, int]]
@@ -53,4 +53,4 @@ proc part2(file: File): int =
     for value in line:
       result += value
 
-echo "Part 2: ", open("day6.input").part2
+echo "Part 2: ", open("day06.input").part2

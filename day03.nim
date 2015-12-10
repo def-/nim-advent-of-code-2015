@@ -23,7 +23,7 @@ proc part1(file: File): int =
 
   result = card grid
 
-echo "Part 1: ", open("day3.input").part1
+echo "Part 1: ", open("day03.input").part1
 
 proc part2(file: File): int =
   var
@@ -46,4 +46,4 @@ proc part2(file: File): int =
 
   result = card grid
 
-echo "Part 2: ", open("day3.input").part2
+echo "Part 2: ", open("day03.input").part2

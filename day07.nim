@@ -30,7 +30,7 @@ proc part1(file: File): uint16 =
 
   result = go("a")
 
-echo "Part 1: ", open("day7.input").part1
+echo "Part 1: ", open("day07.input").part1
 
 proc part2(file: File): uint16 =
   var conns = initTable[string, seq[string]]()
@@ -63,4 +63,4 @@ proc part2(file: File): uint16 =
 
   result = go("a")
 
-echo "Part 2: ", open("day7.input").part2
+echo "Part 2: ", open("day07.input").part2
