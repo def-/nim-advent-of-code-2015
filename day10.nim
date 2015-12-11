@@ -1,5 +1,3 @@
-import strutils, sequtils, tables, algorithm
-
 proc part1: int =
   var x = "1113122113"
 
